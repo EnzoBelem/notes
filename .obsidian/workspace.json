@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "f2d2cdb9437e903c",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6d6503aea5e334c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f87583685517010f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b15fb8bc9ef1e6d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5282d456af105a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cbf4d154455c6015",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2139ddb0a819bf62",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5e9860620d1dc377",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 449.5
+  },
+  "right": {
+    "id": "67d54800669f874e",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea564723ddab1ce8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ad3945badb8acea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "6bb44549c6c13cbb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "e2a7084c8d3f01cb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2ad0dbef891a0ecf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f87583685517010f",
+  "lastOpenFiles": [
+    "README.md",
+    "Anotações/Computação/Computação.md",
+    "Anotações/Computação/Linux/0. Linux.md",
+    "Anotações/Computação/Linux/Comandos básicos.md",
+    "Anotações/Computação/Linux/Programas, processos e pacotes.md",
+    "Anotações/Computação/Linux/Executar múltiplos comandos.md",
+    "Anotações/Computação/Linux/Gerenciar permissões para arquivos e diretórios.md",
+    "Anotações/Computação/Linux/Protocolo de conexão ssh.md",
+    "Anotações/Computação/Linux/Bash scripts.md",
+    "Anotações/Computação/Linux/Arquivo de swap.md",
+    "Anotações/Computação/Git/2. Tags.md",
+    "Anotações/Computação/Git/1. Comandos básicos do git.md",
+    "Anotações/Computação/Banco de dados/3. SQL.md",
+    "Anotações/Computação/Banco de dados/2.1. Objetos de esquema.md",
+    "Anotações/Computação/Banco de dados/2. Esquemas.md",
+    "Anotações/Computação/Banco de dados/1. Modelagem de bancos.md",
+    "Anotações/Computação/Banco de dados/0. Banco de dados.md",
+    "Anotações/Computação/Docker/0. Docker.md",
+    "Anotações/Computação/Docker/Docker e permissões de administração.md",
+    "Anotações/Computação/Docker/Conceitos iniciais.md",
+    "Anotações/Programação/Programação.md",
+    "Anotações/Programação/Python/Road map POO em python.md",
+    "Anotações/Programação/Python/1. Requests.md",
+    "Anotações/Programação/Python/0. Operadores de bitwise.md",
+    "Anotações/Programação/Django/0. Django.md",
+    "Anotações/Programação/Django/2. Celery.md",
+    "Anotações/Programação/Python",
+    "Anotações/Programação/Django",
+    "Anotações/Programação",
+    "Anotações/Computação/celery.txt",
+    "Anotações/Computação/atualizacao_servidor_medclub.txt",
+    "Anotações/Computação/Linux",
+    "Anotações/Computação/Git",
+    "Anotações/Computação/Docker",
+    "Anotações/Computação/Banco de dados",
+    "Anotações/Computação"
+  ]
+}

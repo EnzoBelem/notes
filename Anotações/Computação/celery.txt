@@ -1,0 +1,104 @@
+============================== As principais configurações no arquivo settings.py relacionadas ao Celery ==============================
+
+# CONFIGURACOES CELERY (TESTE)
+CELERY_BROKER_URL = config('AMQP', default='amqp://rabbitmq')
+CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
+
+CELERY_ACCEPT_CONTENT = ['application/json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TIMEZONE = 'America/Sao_Paulo'
+
+CELERY_BROKER_URL:
+
+Função: Especifica a URL do broker que o Celery usará para enviar e receber mensagens. O broker é responsável por armazenar e transmitir as mensagens entre o aplicativo Django e os workers do Celery.
+Exemplo: 'redis://localhost:6379/0' indica o uso do Redis como broker.
+
+CELERY_RESULT_BACKEND:
+
+Função: Especifica o backend que será usado para armazenar resultados de tarefas. Se uma tarefa retorna um resultado, esse backend é usado para armazená-lo.
+Exemplo: 'redis://localhost:6379/0' indica que o Redis será usado para armazenar resultados.
+
+CELERY_ACCEPT_CONTENT, CELERY_TASK_SERIALIZER, CELERY_RESULT_SERIALIZER:
+
+Função: Configura a serialização de dados para as mensagens trocadas entre o aplicativo e os workers.
+Exemplo: 'json' indica que o formato JSON será usado para serialização.
+
+CELERY_TIMEZONE:
+
+Função: Define o fuso horário usado pelo Celery para agendamento de tarefas.
+Exemplo: 'UTC' indica o uso do Tempo Universal Coordenado (UTC).
+Essas configurações são essenciais para o funcionamento básico do Celery.
+
+============================== A criação de um arquivo celery.py no diretório principal do sistema ==============================
+
+# celery.py
+
+from __future__ import absolute_import, unicode_literals
+import os
+from celery import Celery
+
+# Configurações do Django
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'seuprojeto.settings')
+
+# Crie uma instância do Celery
+app = Celery('seuprojeto')
+
+# Configurações do Celery usando as configurações do Django
+app.config_from_object('django.conf:settings', namespace='CELERY')
+
+# Carregue tarefas do aplicativo Django
+app.autodiscover_tasks()
+
+Entendendo o Conteúdo do Arquivo:
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'seuprojeto.settings'): Esta linha configura a variável de ambiente DJANGO_SETTINGS_MODULE para que o Celery saiba onde encontrar as configurações do Django.
+
+app = Celery('seuprojeto'): Cria uma instância do objeto Celery, usando o nome do seu projeto Django como identificador.
+
+app.config_from_object('django.conf:settings', namespace='CELERY'): Configura o Celery usando as configurações do Django, especificamente as configurações que começam com o prefixo CELERY.
+
+app.autodiscover_tasks(): Instrui o Celery a procurar automaticamente tarefas do Celery em todos os aplicativos Django. Isso é necessário para que o Celery descubra as tarefas que você define no diretório tasks do seu aplicativo.
+
+Como Funciona:
+
+Quando você inicia o Celery worker ou o Celery beat, ele usará este arquivo celery.py para configurar a instância do Celery e descobrir automaticamente tarefas do Celery no seu projeto Django.
+Esse arquivo é essencial para integrar o Celery com o seu projeto Django e garantir que ele reconheça e execute suas tarefas assíncronas.
+
+============================== Configurar o rabbitmq ==============================
+
+É preciso instalar o rabbitmq, após isso segue alguns comando básicos:
+sudo service rabbitmq-server start/stop/restart
+sudo systemctl restart rabbitmq-server
+sudo systemctl status rabbitmq-server
+
+
+============================== Executando o celery ==============================
+
+O Celery usa um sistema de mensagens para distribuir tarefas entre diferentes processos ou máquinas. Os dois componentes principais do Celery relacionados ao agendamento e execução de tarefas são o Celery Worker e o Celery Beat.
+
+Celery Worker:
+
+- O Celery Worker é responsável por executar as tarefas assíncronas.
+- Ele fica escutando por tarefas que são enviadas para a fila de mensagens.
+- Quando uma tarefa é colocada na fila, o Celery Worker a retira e a executa.
+- Os workers podem ser executados em várias máquinas, permitindo escalabilidade horizontal.
+
+celery -A seu_projeto worker --loglevel=info
+
+Celery Beat:
+
+- O Celery Beat é um serviço que funciona como um agendador de tarefas.
+- Ele é usado para agendar a execução de tarefas de forma periódica.
+- O Celery Beat lê um arquivo de configuração que contém as tarefas agendadas (como cron jobs) e as coloca na fila para serem executadas pelos Celery Workers.
+- É útil para executar tarefas de limpeza, envio de e-mails programados, atualizações de cache, etc.
+
+celery -A seu_projeto beat --loglevel=info
+
+comando para iniciar ambos os serviços:
+
+celery -A seu_projeto worker -l info -B
+
+
+
+

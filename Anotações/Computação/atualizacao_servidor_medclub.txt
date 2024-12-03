@@ -1,0 +1,15 @@
+Passos dentro da VM de Homologação:
+
+ssh -i .ssh/id_rsa ubuntu@med-sign.medclub.com.br
+cd public_html/homologacao/api-medclub/
+sudo su
+git pull
+docker-compose -f docker-compose-hom.yml down
+docker-compose -f docker-compose-hom.yml up -d
+docker ps
+docker logs -f <três primeiros digitos do container api_medclub_django>
+
+api: ssh ubuntu@18.220.227.32
+gestor: ssh ubuntu@18.225.32.157
+
+

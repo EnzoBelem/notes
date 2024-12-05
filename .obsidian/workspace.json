@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a6d6503aea5e334c",
+        "id": "7bb165feb6592cd6",
         "type": "tabs",
         "children": [
           {
-            "id": "f87583685517010f",
+            "id": "82764eb9df2cad15",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -89,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Anotações/Computação/Docker/Conceitos iniciais.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Conceitos iniciais"
             }
           },
           {
@@ -107,11 +108,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Anotações/Computação/Docker/Conceitos iniciais.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Conceitos iniciais"
             }
           },
           {
@@ -154,11 +156,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f87583685517010f",
+  "active": "82764eb9df2cad15",
   "lastOpenFiles": [
+    "Anotações/Programação/Programação.md",
+    "Anotações/Programação/Django/Celery.md",
+    "Anotações/Computação/Linux/0. Linux.md",
+    "Anotações/Programação/Django/0. Django.md",
+    "Anotações/Programação/Django/1. Django fields.md",
+    "Anotações/Computação/Docker/Conceitos iniciais.md",
+    "Anotações/Computação/Docker/0. Docker.md",
+    "Anotações/Computação/Docker/Docker e permissões de administração.md",
     "README.md",
     "Anotações/Computação/Computação.md",
-    "Anotações/Computação/Linux/0. Linux.md",
     "Anotações/Computação/Linux/Comandos básicos.md",
     "Anotações/Computação/Linux/Programas, processos e pacotes.md",
     "Anotações/Computação/Linux/Executar múltiplos comandos.md",
@@ -173,15 +182,8 @@
     "Anotações/Computação/Banco de dados/2. Esquemas.md",
     "Anotações/Computação/Banco de dados/1. Modelagem de bancos.md",
     "Anotações/Computação/Banco de dados/0. Banco de dados.md",
-    "Anotações/Computação/Docker/0. Docker.md",
-    "Anotações/Computação/Docker/Docker e permissões de administração.md",
-    "Anotações/Computação/Docker/Conceitos iniciais.md",
-    "Anotações/Programação/Programação.md",
     "Anotações/Programação/Python/Road map POO em python.md",
     "Anotações/Programação/Python/1. Requests.md",
-    "Anotações/Programação/Python/0. Operadores de bitwise.md",
-    "Anotações/Programação/Django/0. Django.md",
-    "Anotações/Programação/Django/2. Celery.md",
     "Anotações/Programação/Python",
     "Anotações/Programação/Django",
     "Anotações/Programação",

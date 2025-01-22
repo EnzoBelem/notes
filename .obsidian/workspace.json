@@ -11,10 +11,14 @@
             "id": "41630dc9cec00fdd",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Anotações/Computação/Git/4. Lidando com conflitos via shell.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Lidando com conflitos via shell"
             }
           }
         ]
@@ -134,9 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Anotações/Computação/Git/4. Lidando com conflitos via shell.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 4. Lidando com conflitos via shell"
             }
           }
         ],
@@ -158,6 +164,8 @@
   },
   "active": "41630dc9cec00fdd",
   "lastOpenFiles": [
+    "README.md",
+    "Anotações/Computação/Git/4. Lidando com conflitos via shell.md",
     "Anotações/Programação/Python/3. Dataclasses/3.1 dataclass.md",
     "Anotações/Programação/Python/3. Dataclasses",
     "Anotações/Programação/Python/2. Typing/2.1 NamedTuple.md",
@@ -192,8 +200,6 @@
     "Anotações/Programação/Django/Django ORM",
     "Solução de problemas.md",
     "Anotações/Computação/Docker/Conceitos iniciais/Untitled.md",
-    "Anotações/Computação/Linux/Comandos básicos.md",
-    "Anotações/Computação/Linux/0. Linux.md",
-    "Anotações/Programação/Programação.md"
+    "Anotações/Computação/Linux/Comandos básicos.md"
   ]
 }

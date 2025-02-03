@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anotações/Computação/Docker/3. Comandos/3.4. Gerenciando volumes.md",
-                "mode": "preview",
+                "file": "Anotações/Computação/Docker/3. Comandos/3.3. Dockerfile.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.4. Gerenciando volumes"
+              "title": "3.3. Dockerfile"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Anotações/Computação/Docker/3. Comandos/3.4. Gerenciando volumes.md",
+                "file": "Anotações/Computação/Docker/3. Comandos/3.3. Dockerfile.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3.4. Gerenciando volumes"
+              "title": "Outline of 3.3. Dockerfile"
             }
           }
         ],
@@ -154,8 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 502.5,
-    "collapsed": true
+    "width": 502.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,11 +168,11 @@
   },
   "active": "29996fd5aa09b9d6",
   "lastOpenFiles": [
-    "Anotações/Computação/Docker/0. Docker.md",
     "Anotações/Computação/Docker/3. Comandos/3.4. Gerenciando volumes.md",
     "Anotações/Computação/Docker/3. Comandos/3.3. Dockerfile.md",
-    "Anotações/Computação/Docker/3. Comandos/3.2. Informações e logs.md",
     "Anotações/Computação/Docker/3. Comandos/3.1. Comandos básicos.md",
+    "Anotações/Computação/Docker/0. Docker.md",
+    "Anotações/Computação/Docker/3. Comandos/3.2. Informações e logs.md",
     "Anotações/Computação/Docker/2. Configurações/2.1. Docker e permissões de administração.md",
     "Anotações/Computação/Docker/1. Conceitos/1.4. Volumes.md",
     "Anotações/Computação/Docker/1. Conceitos/1.3. Imagens.md",

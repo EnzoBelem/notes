@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2dda3389580c4ddc",
+        "id": "0889b456773d8927",
         "type": "tabs",
         "children": [
           {
-            "id": "29996fd5aa09b9d6",
+            "id": "4cbccf9e42a538a6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Anotações/Computação/Docker/3. Comandos/3.3. Dockerfile.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3.3. Dockerfile"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Anotações/Computação/Docker/3. Comandos/3.3. Dockerfile.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 3.3. Dockerfile"
             }
           }
         ],
@@ -161,8 +166,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "29996fd5aa09b9d6",
+  "active": "4cbccf9e42a538a6",
   "lastOpenFiles": [
+    "Anotações/Computação/Docker/3. Comandos/3.4. Gerenciando volumes.md",
+    "Anotações/Computação/Docker/3. Comandos/3.3. Dockerfile.md",
+    "Anotações/Computação/Docker/3. Comandos/3.2. Informações e logs.md",
+    "Anotações/Computação/Docker/3. Comandos/3.1. Comandos básicos.md",
+    "Anotações/Computação/Docker/1. Conceitos/1.1. Containers no Linux.md",
+    "Anotações/Computação/Docker/0. Docker.md",
+    "Anotações/Computação/Docker/1. Conceitos/1.6 Orquestração de containers.md",
+    "Anotações/Computação/Git/Restore e clean.md",
     "Anotações/Programação/Python Frameworks/2. Django/8. APIs e Integrações/8.3. Tarefas assíncronas com Celery.md",
     "Anotações/Programação/Python Frameworks/2. Django/3. Modelos e Bancos de Dados/3.2. Campos de modelos.md",
     "Anotações/Programação/Python Frameworks/2. Django/11. Deploy/11.2 Deploy básico.md",
@@ -177,7 +190,6 @@
     "Anotações/Programação/Conceitos gerais/CI CD/1. O que é CI CD?.md",
     "Anotações/Programação/Conceitos gerais/CI CD",
     "Anotações/Programação/Conceitos gerais",
-    "Anotações/Computação/Git/Restore e clean.md",
     "Anotações/Computação/Estrutura de dados e algoritmos/1. Notação Big O.md",
     "Anotações/Computação/Estrutura de dados e algoritmos",
     "Anotações/Computação/Docker/1. Conceitos/1.5. Registries.md",
@@ -187,16 +199,9 @@
     "Ferramentas do ecossistema python.md",
     "Anotações/Computação/Git/3. Remoção de branches.md",
     "Anotações/Computação/Git/4. Lidando com conflitos via shell.md",
-    "Anotações/Computação/Docker/3. Comandos/3.3. Dockerfile.md",
-    "Anotações/Computação/Docker/3. Comandos/3.4. Gerenciando volumes.md",
-    "Anotações/Computação/Docker/3. Comandos/3.1. Comandos básicos.md",
-    "Anotações/Computação/Docker/0. Docker.md",
-    "Anotações/Computação/Docker/3. Comandos/3.2. Informações e logs.md",
     "Anotações/Computação/Docker/2. Configurações/2.1. Docker e permissões de administração.md",
     "Anotações/Computação/Docker/1. Conceitos/1.3. Imagens.md",
     "Anotações/Computação/Docker/1. Conceitos/1.2. Docker e containers Linux.md",
-    "Anotações/Computação/Docker/1. Conceitos/1.1.1. Containers vs Virtualização.md",
-    "Anotações/Computação/Docker/1. Conceitos/1.1. Containers no Linux.md",
     "Anotações/Computação/Docker/3. Comandos",
     "Untitled.canvas",
     "Anotações/Computação/Arquitetura de computadores/1. Comunicação hardware e software",

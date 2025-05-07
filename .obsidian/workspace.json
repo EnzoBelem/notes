@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "662b3f2bac5e4582",
+        "id": "2513c3681047f30f",
         "type": "tabs",
         "children": [
           {
-            "id": "620e104475627808",
+            "id": "77035a9bb6ddbe2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anotações/Programação/Python/BytesIO.md",
+                "file": "Anotações/Computação/Banco de dados/1. Redis/1.1. Principais comandos do Redis no python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BytesIO"
+              "title": "1.1. Principais comandos do Redis no python"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Anotações/Programação/Python/BytesIO.md",
+                "file": "Anotações/Computação/Banco de dados/1. Redis/1.1. Principais comandos do Redis no python.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of BytesIO"
+              "title": "Outline of 1.1. Principais comandos do Redis no python"
             }
           }
         ],
@@ -154,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.5
+    "width": 502.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,45 +166,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "620e104475627808",
+  "active": "77035a9bb6ddbe2a",
   "lastOpenFiles": [
-    "Anotações/Computação/Git/3. Remoção de branches.md",
+    "Anotações/Programação/Python2.0/3. Ferramentas do ecossistema Python/3.3.1 Comunicação entre VSCode e debugpy.md",
+    "Anotações/Programação/Python2.0/3. Ferramentas do ecossistema Python/3.3 debugpy.md",
+    "Anotações/Programação/Python Frameworks/2. Django/Django SECRET_KEY.md",
+    "Anotações/Computação/Banco de dados/1. Redis/1.1. Principais comandos do Redis no python.md",
+    "Anotações/Computação/Banco de dados/1. Redis",
     "Anotações/Programação/Python/BytesIO.md",
-    "Anotações/Computação/Git/4. Lidando com conflitos via shell.md",
-    "Anotações/Computação/Linux/Protocolo de conexão ssh.md",
-    "Anotações/Computação/Docker/3. Comandos/3.3. Dockerfile.md",
+    "Anotações/Programação/Programação.md",
+    "Anotações/Programação/Python2.0/3. Ferramentas do ecossistema Python/3.2 poetry.md",
+    "Anotações/Programação/Python/4. Debug/4.1. Debugpy.md",
+    "Anotações/Programação/Python2.0/3. Ferramentas do ecossistema Python/3.1 pipx.md",
+    "Anotações/Programação/Python/4. Debug/4.2. Debug com.md",
+    "Anotações/Programação/Python/3. Dataclasses/3.1 dataclass.md",
+    "Anotações/Programação/Python/0. Operadores de bitwise.md",
+    "Anotações/Programação/Python/4. Debug",
+    "Anotações/Programação/Python/1. Requests.md",
+    "Anotações/Programação/Python/Road map POO em python.md",
+    "Anotações/Programação/Python Frameworks/2. Django/0. Django.md",
     "Anotações/Computação/Docker/3. Comandos/3.4. Gerenciando volumes.md",
+    "Anotações/Programação/Python Frameworks/2. Django/11. Deploy/Untitled.md",
+    "Anotações/Computação/Docker/3. Comandos/3.3. Dockerfile.md",
     "Anotações/Computação/Docker/3. Comandos/3.2. Informações e logs.md",
     "Anotações/Computação/Docker/3. Comandos/3.1. Comandos básicos.md",
+    "Anotações/Computação/Docker/1. Conceitos/1.3. Imagens.md",
     "Anotações/Computação/Docker/1. Conceitos/1.1. Containers no Linux.md",
     "Anotações/Computação/Docker/0. Docker.md",
     "Anotações/Computação/Docker/1. Conceitos/1.6 Orquestração de containers.md",
     "Anotações/Computação/Git/Restore e clean.md",
-    "Anotações/Programação/Python Frameworks/2. Django/8. APIs e Integrações/8.3. Tarefas assíncronas com Celery.md",
-    "Anotações/Programação/Python Frameworks/2. Django/3. Modelos e Bancos de Dados/3.2. Campos de modelos.md",
-    "Anotações/Programação/Python Frameworks/2. Django/11. Deploy/11.2 Deploy básico.md",
-    "Anotações/Programação/Python Frameworks/2. Django/11. Deploy/11.1 Server Gateway Interface (WSGI e ASGI).md",
-    "Anotações/Programação/Python Frameworks/2. Django/10. Desempenho e Escalabilidade/10.2. Otimização de consultas.md",
     "Anotações/Programação/Python Frameworks/2. Django/8. APIs e Integrações",
     "Anotações/Programação/Python Frameworks/2. Django/3. Modelos e Bancos de Dados",
     "Anotações/Programação/Python Frameworks/2. Django/11. Deploy",
     "Anotações/Programação/Python Frameworks/2. Django/10. Desempenho e Escalabilidade",
-    "Anotações/Programação/Python Frameworks/2. Django/0. Django.md",
     "Anotações/Programação/Python Frameworks/2. Django",
-    "Anotações/Programação/Conceitos gerais/CI CD/1. O que é CI CD?.md",
     "Anotações/Programação/Conceitos gerais/CI CD",
     "Anotações/Programação/Conceitos gerais",
-    "Anotações/Computação/Estrutura de dados e algoritmos/1. Notação Big O.md",
     "Anotações/Computação/Estrutura de dados e algoritmos",
-    "Anotações/Computação/Docker/1. Conceitos/1.5. Registries.md",
-    "Anotações/Computação/Docker/1. Conceitos/1.4. Volumes.md",
-    "Anotações/Programação/Python2.0/3. Ferramentas do ecossistema Python/3.1 pipx.md",
-    "Anotações/Programação/Python2.0/3. Ferramentas do ecossistema Python/3.2 poetry.md",
-    "Ferramentas do ecossistema python.md",
-    "Anotações/Computação/Docker/2. Configurações/2.1. Docker e permissões de administração.md",
-    "Anotações/Computação/Docker/3. Comandos",
     "Untitled.canvas",
-    "Anotações/Computação/Arquitetura de computadores/1. Comunicação hardware e software",
     "Anotações/Computação/Arquitetura de computadores/Untitled.canvas"
   ]
 }

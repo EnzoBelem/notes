@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0889b456773d8927",
+        "id": "662b3f2bac5e4582",
         "type": "tabs",
         "children": [
           {
-            "id": "4cbccf9e42a538a6",
+            "id": "620e104475627808",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anotações/Computação/Docker/3. Comandos/3.3. Dockerfile.md",
+                "file": "Anotações/Programação/Python/BytesIO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.3. Dockerfile"
+              "title": "BytesIO"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Anotações/Computação/Docker/3. Comandos/3.3. Dockerfile.md",
+                "file": "Anotações/Programação/Python/BytesIO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3.3. Dockerfile"
+              "title": "Outline of BytesIO"
             }
           }
         ],
@@ -154,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 502.5
+    "width": 380.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,10 +166,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4cbccf9e42a538a6",
+  "active": "620e104475627808",
   "lastOpenFiles": [
-    "Anotações/Computação/Docker/3. Comandos/3.4. Gerenciando volumes.md",
+    "Anotações/Computação/Git/3. Remoção de branches.md",
+    "Anotações/Programação/Python/BytesIO.md",
+    "Anotações/Computação/Git/4. Lidando com conflitos via shell.md",
+    "Anotações/Computação/Linux/Protocolo de conexão ssh.md",
     "Anotações/Computação/Docker/3. Comandos/3.3. Dockerfile.md",
+    "Anotações/Computação/Docker/3. Comandos/3.4. Gerenciando volumes.md",
     "Anotações/Computação/Docker/3. Comandos/3.2. Informações e logs.md",
     "Anotações/Computação/Docker/3. Comandos/3.1. Comandos básicos.md",
     "Anotações/Computação/Docker/1. Conceitos/1.1. Containers no Linux.md",
@@ -197,11 +201,7 @@
     "Anotações/Programação/Python2.0/3. Ferramentas do ecossistema Python/3.1 pipx.md",
     "Anotações/Programação/Python2.0/3. Ferramentas do ecossistema Python/3.2 poetry.md",
     "Ferramentas do ecossistema python.md",
-    "Anotações/Computação/Git/3. Remoção de branches.md",
-    "Anotações/Computação/Git/4. Lidando com conflitos via shell.md",
     "Anotações/Computação/Docker/2. Configurações/2.1. Docker e permissões de administração.md",
-    "Anotações/Computação/Docker/1. Conceitos/1.3. Imagens.md",
-    "Anotações/Computação/Docker/1. Conceitos/1.2. Docker e containers Linux.md",
     "Anotações/Computação/Docker/3. Comandos",
     "Untitled.canvas",
     "Anotações/Computação/Arquitetura de computadores/1. Comunicação hardware e software",

@@ -1,3 +1,6 @@
+
+[[0. Linux|Início]]
+
 O comando `chmod` no Linux é usado para alterar as permissões de arquivos e diretórios. As permissões podem ser definidas usando notação simbólica (letras) ou octal (números). Aqui está uma explicação detalhada de ambas as notações:
 
 ### Notação Simbólica

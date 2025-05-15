@@ -1,3 +1,6 @@
+
+[[0. Linux|Início]]
+
 ## Parâmetros coringas na execução de comandos
 - `-r --recursive` - executar o comando de forma recursiva.
 - `-q --quiet` - executar o comando sem saída final.

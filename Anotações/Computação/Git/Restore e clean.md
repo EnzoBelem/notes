@@ -1,6 +1,8 @@
 
 #Git
 
+[[0. Git]]
+
 O Git oferece comandos específicos para lidar com alterações no diretório de trabalho e limpar arquivos indesejados. Dois desses comandos importantes são:
 
 - `git restore` → Para reverter mudanças em arquivos modificados.

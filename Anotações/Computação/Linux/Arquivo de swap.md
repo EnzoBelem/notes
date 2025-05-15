@@ -1,3 +1,6 @@
+
+[[0. Linux|Início]]
+
 ## Importância do swap
 O arquivo de swap em um sistema Linux tem um papel crucial, especialmente quando o sistema está sobrecarregado. Aqui estão alguns pontos importantes:
 1. **Gerenciamento de Memória**: O arquivo de swap é usado quando a quantidade de memória física (RAM) é totalmente utilizada. Quando isso acontece, o sistema operacional move alguns dos dados na RAM para o arquivo de swap. Isso libera a RAM para que ela possa ser usada para outras tarefas.

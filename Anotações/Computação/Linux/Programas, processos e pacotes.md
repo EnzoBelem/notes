@@ -1,3 +1,6 @@
+
+[[0. Linux|Início]]
+
 ## Processos
 - `ps` Lista todos os processos rodando no terminal atual.
 - `ps -e` Lista todos os processos rodando no sistema.

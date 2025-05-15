@@ -1,3 +1,6 @@
+
+[[0. Linux|Início]]
+
 É possível acessar outra máquina remotamente através do protocolo `ssh`. 
 
 ## Configurar o ambiente

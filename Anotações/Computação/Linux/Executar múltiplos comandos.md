@@ -1,3 +1,6 @@
+
+[[0. Linux|Início]]
+
 Para executar um comando seguido de um `sudo su`, você pode utilizar a funcionalidade de sub shell do bash. Aqui estão algumas abordagens para conseguir isso:
 
 ### Abordagem 1: Usar um sub shell

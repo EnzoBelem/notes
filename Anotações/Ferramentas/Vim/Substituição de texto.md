@@ -1,3 +1,5 @@
+#Vim
+
 No Vim, para substituir todas as ocorrências de uma string em um arquivo, você pode usar o seguinte comando no modo normal (pressione `Esc` para garantir que está no modo normal):
 
 ```
@@ -38,6 +40,3 @@ Explicação:
     ```
     :%s/foo/bar/gc
     ```
-    
-
-Se quiser substituir apenas em uma linha específica, substitua `%` pelo número da linha ou intervalo (`1,10` por exemplo).

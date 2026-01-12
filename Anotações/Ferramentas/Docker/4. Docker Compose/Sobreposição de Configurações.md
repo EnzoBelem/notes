@@ -1,7 +1,5 @@
 #Docker
 
-[[0. Docker|Sumário]]
-
 O conceito de **override** no `docker-compose` está diretamente ligado à ideia de **sobreposição de configurações**. Isso permite que você divida a configuração do `docker-compose` em múltiplos arquivos, onde arquivos adicionais _complementam ou substituem_ partes da configuração base (`docker-compose.yml`).
 
 ---

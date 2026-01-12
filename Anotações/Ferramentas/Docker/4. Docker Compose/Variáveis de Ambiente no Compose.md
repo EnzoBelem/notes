@@ -1,7 +1,5 @@
 #Docker 
 
-[[0. Docker|Sumário]]
-
 Vamos desvendar o comportamento do Docker Compose em relação a variáveis de ambiente e atualizações. Seu entendimento tem nuances importantes - o Docker Compose opera com dois tipos de arquivos `.env` com comportamentos distintos:
 
 ### 1. **Arquivo `.env` do Docker Compose (nível de projeto)**

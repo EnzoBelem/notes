@@ -1,8 +1,10 @@
+#Linux 
+
 O `Makefile` é um arquivo usado pelo utilitário **`make`**, que automatiza a execução de **tarefas repetitivas via terminal**. É muito comum em projetos de software — especialmente com C, Python, Docker e CI/CD — por ser simples e poderoso.
 
 ---
 
-## 📌 O que é o `make`
+## O que é o `make`
 
 O `make` é uma ferramenta que:
 
@@ -15,7 +17,7 @@ O `make` é uma ferramenta que:
 
 ---
 
-## 📁 Estrutura de um `Makefile`
+## Estrutura de um `Makefile`
 
 Um `Makefile` é composto por **regras**:
 
@@ -40,19 +42,19 @@ make migrate
 
 ---
 
-## ✅ Vantagens de usar Makefile
+## Vantagens de usar Makefile
 
-|Vantagem|Descrição|
-|---|---|
-|🔁 Evita repetir comandos longos|Use `make up-dev` em vez de digitar docker-compose completo.|
-|🤝 Facilita onboarding|Novos devs só precisam saber `make up-dev` e `make migrate`.|
-|🧪 Automatiza tarefas|Testes, builds, migrações, lint, etc.|
-|📄 Autodocumentação|Pode incluir `make help` para listar tudo.|
-|🌍 Multiplataforma (Linux/macOS)|Não depende de Python, Node etc., só do `make`.|
+| Vantagem                      | Descrição                                                    |
+| ----------------------------- | ------------------------------------------------------------ |
+| Evita repetir comandos longos | Use `make up-dev` em vez de digitar docker-compose completo. |
+| Facilita onboarding           | Novos devs só precisam saber `make up-dev` e `make migrate`. |
+| Automatiza tarefas            | Testes, builds, migrações, lint, etc.                        |
+| Autodocumentação              | Pode incluir `make help` para listar tudo.                   |
+| Multiplataforma (Linux/macOS) | Não depende de Python, Node etc., só do `make`.              |
 
 ---
 
-## 🛠 Requisitos
+## Requisitos
 
 - No **Linux/macOS** o `make` já vem instalado.
     
@@ -65,7 +67,7 @@ make migrate
 
 ---
 
-## ⚙️ Onde o Makefile se encaixa no seu projeto
+## Onde o Makefile se encaixa no seu projeto
 
 No seu caso (Django + Docker), o `Makefile` funciona como uma **interface de linha de comando personalizada** para o projeto. Ele centraliza tarefas como:
 
@@ -81,7 +83,3 @@ No seu caso (Django + Docker), o `Makefile` funciona como uma **interface de lin
     
 - Construir imagens Docker
     
-
----
-
-Se quiser, posso te mostrar como o `Makefile` pode substituir até arquivos `scripts/` em bash, mantendo o projeto mais limpo. Deseja?

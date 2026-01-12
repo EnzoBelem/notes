@@ -1,5 +1,4 @@
-
-[[0. Linux|Início]]
+#Linux 
 
 ## Importância do swap
 O arquivo de swap em um sistema Linux tem um papel crucial, especialmente quando o sistema está sobrecarregado. Aqui estão alguns pontos importantes:

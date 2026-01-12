@@ -1,5 +1,4 @@
-
-[[0. Linux|Início]]
+#Linux 
 
 É possível acessar outra máquina remotamente através do protocolo `ssh`. 
 

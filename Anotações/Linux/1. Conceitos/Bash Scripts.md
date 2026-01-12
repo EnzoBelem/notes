@@ -1,5 +1,4 @@
-
-[[0. Linux|Início]]
+#Linux
 
 Para resolver o problema de downtime e garantir que seu servidor fique sempre disponível durante a atualização, você pode adotar uma estratégia de "blue-green deployment" com Docker. A ideia é ter dois containers (blue e green), onde um deles está em execução (ativo) e o outro é atualizado e preparado para substituir o atual. Uma vez que a nova versão está pronta, você altera o roteamento para apontar para o container atualizado. Aqui estão os passos para implementar isso:
 

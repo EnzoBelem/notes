@@ -1,10 +1,12 @@
+#Linux 
+
 Aqui estão as **maneiras mais simples e seguras de limpar o sistema Linux**, liberando espaço em disco e removendo arquivos desnecessários, especialmente para distros baseadas em **Debian/Ubuntu** ou **Arch/Garuda** (como você usa):
 
 ---
 
-## 🔧 1. **Limpar pacotes e dependências não utilizados**
+## 1. **Limpar pacotes e dependências não utilizados**
 
-### 📦 **Debian/Ubuntu:**
+### **Debian/Ubuntu:**
 
 ```bash
 sudo apt autoremove --purge
@@ -19,7 +21,7 @@ sudo apt clean
 - `clean`: remove todo o cache de pacotes.
     
 
-### 📦 **Arch/Garuda:**
+### **Arch/Garuda:**
 
 ```bash
 sudo pacman -Rns $(pacman -Qdtq)   # remove dependências órfãs
@@ -31,9 +33,9 @@ sudo pacman -Scc                   # limpa todo cache (cuidado!)
 
 ---
 
-## 🧹 2. **Limpar cache do sistema**
+## 2. **Limpar cache do sistema**
 
-### 🔹 Cache do usuário:
+### Cache do usuário:
 
 ```bash
 rm -rf ~/.cache/*
@@ -43,7 +45,7 @@ rm -rf ~/.cache/*
 
 ---
 
-## 📁 3. **Verificar pastas grandes (como `/var` e `/tmp`)**
+## 3. **Verificar pastas grandes (como `/var` e `/tmp`)**
 
 - **Limpar arquivos temporários:**
     
@@ -63,7 +65,7 @@ rm -rf ~/.cache/*
 
 ---
 
-## 🗑 4. **Limpar lixeira**
+## 4. **Limpar lixeira**
 
 ```bash
 rm -rf ~/.local/share/Trash/*
@@ -71,7 +73,7 @@ rm -rf ~/.local/share/Trash/*
 
 ---
 
-## 📦 5. **Limpar cache do Flatpak (se usar)**
+## 5. **Limpar cache do Flatpak (se usar)**
 
 ```bash
 flatpak uninstall --unused
@@ -79,7 +81,7 @@ flatpak uninstall --unused
 
 ---
 
-## 📦 6. **Limpar cache do Snap (se usar)**
+## 6. **Limpar cache do Snap (se usar)**
 
 ```bash
 sudo du -h /var/lib/snapd/snaps/
@@ -88,7 +90,7 @@ sudo rm /var/lib/snapd/snaps/*.old
 
 ---
 
-## 📊 7. **Usar ferramentas de limpeza automáticas**
+## 7. **Usar ferramentas de limpeza automáticas**
 
 ### `bleachbit` (modo gráfico ou CLI)
 
@@ -113,7 +115,7 @@ sudo bleachbit --clean system.cache system.tmp
 
 ---
 
-## 🧠 Dica final
+## Dica final
 
 Antes de rodar comandos destrutivos, sempre verifique o que será excluído. Exemplos:
 
@@ -124,7 +126,3 @@ pacman -Qtdq
 # Verificar diretórios grandes:
 sudo du -h --max-depth=1 / | sort -hr | head
 ```
-
----
-
-Se quiser posso sugerir um script personalizado para automatizar essas limpezas. Deseja isso?

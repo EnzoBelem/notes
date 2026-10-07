@@ -18,6 +18,5 @@ Nem tudo aqui é original — e nem era a ideia. Se eu soubesse tudo, nem precis
 | `Ferramentas` | Docker (inclui Compose e orquestração), Git e Vim |
 | `Linux` | Conceitos, configurações (SSH, SFTP, GPG, permissões) e comandos |
 | `Programação` | Python (fundamentos, ferramentas do ecossistema, FastAPI e Django) e conceitos como CI/CD |
-| `Projetos` | Acompanhamento de projetos pessoais |
 
 Cada nota começa com um título `# H1` seguido das tags (`#Docker`, `#Git`, ...). Os arquivos são editados no [Obsidian](https://obsidian.md/).

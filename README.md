@@ -14,10 +14,10 @@ Nem tudo aqui é original — e nem era a ideia. Se eu soubesse tudo, nem precis
 
 | Pasta | Conteúdo |
 | --- | --- |
-| `Anotações/Computação` | Arquitetura de computadores e bancos de dados (conceitos, SQL, PostgreSQL, Redis) |
-| `Anotações/Ferramentas` | Docker (inclui Compose e orquestração), Git e Vim |
-| `Anotações/Linux` | Conceitos, configurações (SSH, SFTP, GPG, permissões) e comandos |
-| `Anotações/Programação` | Python (fundamentos, ferramentas do ecossistema, FastAPI e Django) e conceitos como CI/CD |
-| `Anotações/Projetos` | Acompanhamento de projetos pessoais |
+| `Computação` | Arquitetura de computadores e bancos de dados (conceitos, SQL, PostgreSQL, Redis) |
+| `Ferramentas` | Docker (inclui Compose e orquestração), Git e Vim |
+| `Linux` | Conceitos, configurações (SSH, SFTP, GPG, permissões) e comandos |
+| `Programação` | Python (fundamentos, ferramentas do ecossistema, FastAPI e Django) e conceitos como CI/CD |
+| `Projetos` | Acompanhamento de projetos pessoais |
 
 Cada nota começa com um título `# H1` seguido das tags (`#Docker`, `#Git`, ...). Os arquivos são editados no [Obsidian](https://obsidian.md/).
